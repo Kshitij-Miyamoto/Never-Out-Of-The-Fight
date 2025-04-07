@@ -9,5 +9,10 @@ int main()
     cout << s2 <<endl ;
     cout << sizeof(s2)<< "bits" <<endl ; 
 
+    for(int i = 0 ; i < s1.size() ; i++){
+        cout << s1[i] << " " ; 
+        cout << s2[i] << " " ; 
+    }
+
     return 0; 
 }
